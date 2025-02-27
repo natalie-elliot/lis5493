@@ -1,0 +1,73 @@
+---
+title: "Metadata Creation with dataspice"
+author: "Natalie Elliot"
+---
+
+## Step 2: Quarto File in New R Project for Versioning
+
+This .qmd file contains the steps and chunk code in R syntax necessary for completing Activity 3.
+
+## Step 3.1: Install dataspice package
+
+```{r install dataspice package, echo=TRUE}
+install.packages("dataspice")
+```
+
+## Step 3.2: Initialize the Metadata Structure
+
+```{r load dataspice and create metadata templates, echo=TRUE}
+library(dataspice)
+create_spice(dir = "data")
+```
+
+## Step 4.1: Populating Metadata Files
+
+### Editing creators.csv
+
+```{r editing creators, echo=TRUE}
+edit_creators()
+readr::read_csv('data/metadata/creators.csv')
+```
+
+### Preparing access.csv
+
+```{r preparing access, echo=TRUE}
+prep_access()
+edit_access()
+readr::read_csv('data/metadata/access.csv')
+```
+
+### Editing biblio.csv
+
+```{r editing biblio, echo=TRUE}
+edit_biblio()
+readr::read_csv('data/metadata/biblio.csv')
+```
+
+### Editing attributes.csv
+
+```{r editing attributes, echo=TRUE}
+prep_attributes()
+edit_attributes()
+readr::read_csv('data/metadata/attributes.csv')
+```
+
+## Step 4.2: Create JSON-LD Metadata File
+
+```{r compile as structured json file, echo=TRUE}
+write_spice()
+```
+
+### Install and load packages for viewing JSON-LD Metadata file
+
+```{r install and load json related packages for viewing, echo=TRUE}
+install.packages("listviewer") # I already have jsonlite package installed
+jsonlite::read_json(here::here("data", "metadata", "dataspice.json")) %>% 
+    listviewer::jsonedit()
+```
+
+## Step 4.3: Build README site
+
+```{r build readme site, echo=TRUE}
+build_site()
+```
