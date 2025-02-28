@@ -1,13 +1,10 @@
 This readme file was generated on 2025-02-28 by Natalie Elliot
-<help text in angle brackets should be deleted before finalizing your document>
-<[text in square brackets should be changed for your specific dataset]>
 
 
 GENERAL INFORMATION
 
 Title of Dataset: Inoculation combat misinformation in China
 
-<provide at least two contacts>
 Author/Principal Investigator Information
 Name: Bo Hu
 ORCID: 0000-0002-5824-9090
@@ -79,8 +76,7 @@ Describe any quality-assurance procedures performed on the data: NA
 People involved with sample collection, processing, analysis and/or submission: Bo Hu, Xing-Da Ju, Huan-Huan Liu, Han-Qian Wu, Chang Lu
 
 
-DATA-SPECIFIC INFORMATION FOR: [FILENAME]
-<repeat this section for each dataset, folder or file, as appropriate>
+DATA-SPECIFIC INFORMATION FOR: Hu-dataset.csv
 
 Number of variables: 19
 
