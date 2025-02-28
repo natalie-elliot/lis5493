@@ -1,0 +1,106 @@
+---
+title: "Metadata Creation with dataspice"
+author: "Natalie Elliot"
+date: "2/28/2025"
+format: 
+ html:
+   code-fold: true
+---
+
+## Step 2: Quarto File in New R Project for Versioning
+
+This .qmd file contains the steps and chunk code in R syntax necessary for completing Activity 3: Creating Metadata with 'dataspice'.
+
+## Step 3.1: Install dataspice package
+
+``` r
+install.packages("dataspice")
+```
+
+## Step 3.2: Initialize the Metadata Structure
+
+``` r
+library(dataspice)
+create_spice(dir = "data")
+```
+
+## Step 4.1: Populating Metadata Files
+
+### Editing creators.csv
+
+``` r
+edit_creators()
+readr::read_csv('data/metadata/creators.csv')
+```
+
+![Screenshot of data entry for creators.csv including the creator(s) name, ORCID, professional/scholarly affiliation, and email address.](C:/Users/sooow/OneDrive/Documents/GitHub/lis5493/activity-3/dataspice-qmd/Screenshots/creators-data-entry.png)
+
+### Preparing access.csv
+
+``` r
+prep_access()
+edit_access()
+readr::read_csv('data/metadata/access.csv')
+```
+
+![Screenshot of data entry for access.csv including the file name, name of dataset, persistent identifier (URL), and encoding format.](C:/Users/sooow/OneDrive/Documents/GitHub/lis5493/activity-3/dataspice-qmd/Screenshots/access-data-entry.png)
+
+### Editing biblio.csv
+
+``` r
+edit_biblio()
+readr::read_csv('data/metadata/biblio.csv')
+```
+
+![Screenshot of data entry for biblio.csv including information on the dataset's title, description, publication date, citation of publication the dataset was used for, keywords, license, funder, and temporal and spatial coverage.](C:/Users/sooow/OneDrive/Documents/GitHub/lis5493/activity-3/dataspice-qmd/Screenshots/biblio-data-entry.png)
+
+### Editing attributes.csv
+
+``` r
+prep_attributes()
+edit_attributes()
+readr::read_csv('data/metadata/attributes.csv')
+```
+
+![Screenshot of data entry for attributes.csv containing information on variables, their descriptions, and units of measure (if applicable).](C:/Users/sooow/OneDrive/Documents/GitHub/lis5493/activity-3/dataspice-qmd/Screenshots/attrbutes-data-entry.png)
+
+## Step 4.2: Create JSON-LD Metadata File
+
+``` r
+write_spice()
+```
+
+### Install and load packages for viewing JSON-LD Metadata file
+
+``` r
+# I already have jsonlite, here, magrittr, and pkgdown installed
+install.packages("listviewer")
+jsonlite::read_json(here::here("data", "metadata", "dataspice.json")) %>% 
+    listviewer::jsonedit()
+```
+
+![Screenshot of JSON-LD metadata file html widget](C:/Users/sooow/OneDrive/Documents/GitHub/lis5493/activity-3/dataspice-qmd/Screenshots/json-ld-metadata.png)
+
+## Step 4.3: Build README site
+
+``` r
+build_site()
+```
+
+![](C:/Users/sooow/OneDrive/Documents/GitHub/lis5493/activity-3/dataspice-qmd/Screenshots/published-metadata-desc-biblio.png)
+
+![](C:/Users/sooow/OneDrive/Documents/GitHub/lis5493/activity-3/dataspice-qmd/Screenshots/published-metadata-coverage-map.png)
+
+![Screenshot of published metadata page showing description and bibliographic information, spatial and temporal coverage along with a map of the coverage area, and variable attributes and access information.](C:/Users/sooow/OneDrive/Documents/GitHub/lis5493/activity-3/dataspice-qmd/Screenshots/published-metadata-attr-dist.png)
+
+## Step 7: Dataset Description
+
+### Prompt 1:
+
+-   Who created the data: Bo Hu
+
+-   When the data were created or published: Data created on 2023-04-10 and published on 2023-07-31 to Open Science Framework (OSF). It was also in a publication in the journal *Cognitive Research: Principles and Implications* on 2023-07-31.
+
+-   Title or descriptive name used to refer to the dataset: Inoculation combat misinformation in China
+
+-   Unique and persistent identifier: <https://osf.io/g5hmb/>
