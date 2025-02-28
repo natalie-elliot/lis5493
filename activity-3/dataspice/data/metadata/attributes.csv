@@ -1,92 +1,20 @@
 fileName,variableName,description,unitText
-Bhargava-data-cov.csv,responseid,Subject ID,NA
-Bhargava-data-cov.csv,age,Demographic: age,NA
-Bhargava-data-cov.csv,demrepc,Demographic: political affiliation,NA
-Bhargava-data-cov.csv,screener2acc,Average attention accuracy in 2nd screener,NA
-Bhargava-data-cov.csv,screener3acc,Average attention accuracy in 3rd screener,NA
-Bhargava-data-cov.csv,screenacc,Average attention accuracy in 1st screener,NA
-Bhargava-data-cov.csv,condition,"Whether participants saw correction-only video, misinformation-only video, or both",NA
-Bhargava-data-cov.csv,counterbalance,Whether false or true video was first,NA
-Bhargava-data-cov.csv,education,Demographic: education level,NA
-Bhargava-data-cov.csv,aspartame,Agreement measure with a misinformative statement on topic: Aspartame toxicity (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”)),NA
-Bhargava-data-cov.csv,asymptomatic,Agreement measure with a misinformative statement on topic: COVID-19 asymptomatic transmission (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”))agreement),NA
-Bhargava-data-cov.csv,rust,Agreement measure with a misinformative statement on topic: Rust film set shooting (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”)),NA
-Bhargava-data-cov.csv,herd,Agreement measure with a misinformative statement on topic: COVID-19 herd immunity (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”)),NA
-Bhargava-data-cov.csv,ivermectin,Agreement measure with a misinformative statement on topic: Ivermectin COVID-19 treatment (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”)),NA
-Bhargava-data-cov.csv,brain,Agreement measure with a misinformative statement on topic: Left or right brain personality traits (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”)),NA
-Bhargava-data-cov.csv,tiktok,Participant has or does not have TikTok,NA
-Bhargava-data-cov.csv,tiktokuse,"If participant has TikTok, self-reporting on TikTok usage",NA
-Bhargava-data-cov.csv,tiktokrelativeuse,"If participant has TikTok, usage relative to other users",NA
-Hu-Dataset.csv,number,ID number,NA
-Hu-Dataset.csv,group,"Assigned number for control, game-based, graphics-based groups (1-3)",NA
-Hu-Dataset.csv,fake_dis_pre,"Fake headlines pre-test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,fake_shar_pre,"Fake headlines pre-test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,real_dis_pre,"Real headlines pre-test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,real_shar_pre,"Real headlines pre-test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,fake_dis_post,"Fake headlines post-test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,fake_shar_post,"Fake headlines post-test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,real_dis_post,"Real headlines post-test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,real_shar_post,"Real headlines post-test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,fake_dis_follow,"Fake headlines follow-up test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,fake_shar_folow,"Fake headlines follow-up test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,real_dis_follow,"Real headlines follow-up test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,real_shar_folow,"Real headlines follow-up test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)",NA
-Hu-Dataset.csv,gender,Demographic: gender,NA
-Hu-Dataset.csv,age,Demographic: age,NA
+Hu-Dataset.csv,number,ID number,
+Hu-Dataset.csv,group,"Assigned number for control, game-based, graphics-based groups (1-3)",
+Hu-Dataset.csv,fake_dis_pre,Fake headlines pre-test credibility score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,fake_shar_pre,Fake headlines pre-test willingness to share score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,real_dis_pre,Real headlines pre-test credibility score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,real_shar_pre,Real headlines pre-test willingness to share score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,fake_dis_post,Fake headlines post-test credibility score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,fake_shar_post,Fake headlines post-test willingness to share score using Likert scale,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,real_dis_post,Real headlines post-test credibility score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,real_shar_post,Real headlines post-test willingness to share score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,fake_dis_follow,Fake headlines follow-up test credibility score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,fake_shar_folow,Fake headlines follow-up test willingness to share score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,real_dis_follow,Real headlines follow-up test credibility score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,real_shar_folow,Real headlines follow-up test willingness to share score,"Likert scale (1 = totally not accurate, 5 = very accurate)"
+Hu-Dataset.csv,gender,"Demographic: gender (1 = male, 2 = female)",NA
+Hu-Dataset.csv,age,Demographic: age,years
 Hu-Dataset.csv,Region,Demographic: region (1-29 for each Chinese province represented in study),NA
 Hu-Dataset.csv,RCT,Cognitive ability score,NA
 Hu-Dataset.csv,media literacy,Media literacy score,NA
-Roozenbeek-complete_data.csv,Session.ID,Unique session ID number (duplicate),NA
-Roozenbeek-complete_data.csv,Session.ID,Unique session ID number,NA
-Roozenbeek-complete_data.csv,treatment,Participant Indicated Political Ideology,NA
-Roozenbeek-complete_data.csv,FactsPre,Factual headline issued pre-game using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,FakePre,Fake headline issued pre-game using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,FakePost,Fake headline issued post-game using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,FactsPost,Factual headline issued post-game using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,DiffPre,Difference between pre-game issued headlines,NA
-Roozenbeek-complete_data.csv,DiffPost,Difference between post-game issued headlines,NA
-Roozenbeek-complete_data.csv,Fact1Pre,1st factual headline- pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact2Pre,2nd factual headline- pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact3Pre,3rd factual headline- pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact4Pre,4th factual headline- pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact5Pre,5th factual headline- pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact6Pre,6th factual headline- pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact1Post,1st factual headline- post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact2Post,2nd factual headline- post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact3Post,3rd factual headline- post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact4Post,4th factual headline- post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact5Post,5th factual headline- post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Fact6Post,6th factual headline- post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Em1Pre,Emotional language distortion headline pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Em2Pre,Emotional language distortion headline pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Dis1Pre,Discrediting repute headline pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Dis2Pre,Discrediting repute headline pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Cons1Pre,Conspiratorial thinking headline pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Cons2Pre,Conspiratorial thinking headline pre-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Dis1Post,Discrediting repute headline post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Dis2Post,Discrediting repute headline post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Em1Post,Emotional language distortion headline post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Em2Post,Emotional language distortion headline post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,Cons1Post,Conspiratorial thinking headline post-intervention score using Likert scale (1-7),NA
-Roozenbeek-complete_data.csv,EducationPretest,Demographic: Education level,NA
-Roozenbeek-complete_data.csv,GenderPretest,Demographic: Gender,NA
-Roozenbeek-complete_data.csv,AgePretest,Demographic: Age,NA
-Roozenbeek-complete_data.csv,PoliticalIdeologyPretest,Demographic: Political Ideology,NA
-Roozenbeek-complete_data.csv,LCred,Perceived credibility of liberal source,NA
-Roozenbeek-complete_data.csv,RCred,Perceived credibility of conservative source,NA
-Roozenbeek-complete_data.csv,RSlant,Perceived slant of conservative source,NA
-Roozenbeek-complete_data.csv,LSlant,Perceived slant of liberal source,NA
-Roozenbeek-complete_data.csv,LeftCredCat,"Credibility category of liberal sources as high, low, or NA",NA
-Roozenbeek-complete_data.csv,RightCredCat,"Credibility category of conservative sources as high, low, or NA",NA
-Roozenbeek-complete_data.csv,RExtremity,Conservative extreme headline scores,NA
-Roozenbeek-complete_data.csv,LExtremity,Liberal extreme headlines scores,NA
-Roozenbeek-complete_data.csv,RSlantCategory,"Category of headlines' slant as left, right, neutral, or NA",NA
-Roozenbeek-complete_data.csv,LSlantCategory,"Category of headlines' slant as left, right, neutral, or NA",NA
-Roozenbeek-complete_data.csv,Dif,Conservative-Liberal extremes difference,NA
-Roozenbeek-complete_data.csv,ExtremityCategoryL,"Liberal extreme category identification as extreme, moderate, neutral, or NA",NA
-Roozenbeek-complete_data.csv,ExtremityCategoryR,"Conservative extreme category identification as extreme, moderate, neutral, or NA",NA
-Roozenbeek-complete_data.csv,Group,"Assignment of group as ingroup, outgroup, neither, or NA based on political affiliation",NA
-Roozenbeek-complete_data.csv,PerceivedGroupR,"Perception of right-leaning source as ingroup, outgroup, or neither based on political affiliation",NA
-Roozenbeek-complete_data.csv,PerceivedGroupL,"Perception of left-leaning source as ingroup, outgroup, or neither based on political affiliation",NA
-Roozenbeek-complete_data.csv,PerceivedGroup,"Perception of group as ingroup, outgroup, control, or neither based on political affiliation",NA
-Roozenbeek-complete_data.csv,PerceivedGroupFake,"Perception of group as ingroup, outgroup, control, or neither based on political affiliation",NA

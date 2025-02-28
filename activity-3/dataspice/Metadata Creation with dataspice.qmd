@@ -1,6 +1,10 @@
 ---
 title: "Metadata Creation with dataspice"
 author: "Natalie Elliot"
+date: "2/28/2025"
+format: 
+ html:
+   code-fold: true
 ---
 
 ## Step 2: Quarto File in New R Project for Versioning
@@ -9,7 +13,7 @@ This .qmd file contains the steps and chunk code in R syntax necessary for compl
 
 ## Step 3.1: Install dataspice package
 
-```{r install dataspice package, echo=TRUE}
+```{r install dataspice, echo=TRUE}
 install.packages("dataspice")
 ```
 
@@ -29,6 +33,8 @@ edit_creators()
 readr::read_csv('data/metadata/creators.csv')
 ```
 
+![Data entry for creators.csv](Screenshots/creators-data-entry.png)
+
 ### Preparing access.csv
 
 ```{r preparing access, echo=TRUE}
@@ -37,12 +43,16 @@ edit_access()
 readr::read_csv('data/metadata/access.csv')
 ```
 
+![Data entry for access.csv](Screenshots/access-data-entry.png)
+
 ### Editing biblio.csv
 
 ```{r editing biblio, echo=TRUE}
 edit_biblio()
 readr::read_csv('data/metadata/biblio.csv')
 ```
+
+![Data entry for biblio.csv](Screenshots/biblio-data-entry.png)
 
 ### Editing attributes.csv
 
@@ -51,6 +61,8 @@ prep_attributes()
 edit_attributes()
 readr::read_csv('data/metadata/attributes.csv')
 ```
+
+![Data entry for attributes.csv](Screenshots/attrbutes-data-entry.png)
 
 ## Step 4.2: Create JSON-LD Metadata File
 
@@ -61,7 +73,8 @@ write_spice()
 ### Install and load packages for viewing JSON-LD Metadata file
 
 ```{r install and load json related packages for viewing, echo=TRUE}
-install.packages("listviewer") # I already have jsonlite package installed
+# I already have jsonlite, here, magrittr, and pkgdown packages installed
+install.packages("listviewer")
 jsonlite::read_json(here::here("data", "metadata", "dataspice.json")) %>% 
     listviewer::jsonedit()
 ```
@@ -69,5 +82,8 @@ jsonlite::read_json(here::here("data", "metadata", "dataspice.json")) %>%
 ## Step 4.3: Build README site
 
 ```{r build readme site, echo=TRUE}
-build_site()
+dataspice::build_site(path = "data/metadata/dataspice.json",
+  template_path = system.file("template.html5", package = "dataspice"),
+  out_path = "docs/index.html"
+)
 ```

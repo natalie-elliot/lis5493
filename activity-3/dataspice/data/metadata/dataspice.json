@@ -1,153 +1,31 @@
 {
   "@context": "http://schema.org",
   "type": "Dataset",
-  "name": "How effective are TikTok misinformation debunking videos?",
+  "name": "Inoculation combat misinformation in China",
   "creator": [
-    {
-      "type": "Person",
-      "id": "0000-0000-0000-0000",
-      "email": "puneetbh.works@gmail.com",
-      "affiliation": "University of Pennsylvania",
-      "name": "Bhargava, Puneet"
-    },
     {
       "type": "Person",
       "id": "0000-0002-5824-9090",
       "email": "hubo@smail.nju.edu.cn",
       "affiliation": "Nanjing University",
-      "name": "Hu, Bo"
-    },
-    {
-      "type": "Person",
-      "id": "0000-0002-8150-9305",
-      "email": "jjr51@cam.ac.uk",
-      "affiliation": "University of Cambridge",
-      "name": "Roonsenbeek, Jon"
+      "name": "Hu, Bo, et al."
     }
   ],
-  "description": "This dataset, sourced from Harvard Dataverse for the purpose of replication, contains information related to respondent demographics, political affiliation, attitudes toward specific topics, TikTok usage, and responses to specific questions relating to topics of misinformation.",
-  "datePublished": "2023-03-01",
-  "keywords": ["content moderation", "debunking", "misinformation", "social media", "tiktok"],
-  "funder": "Social Sciences and Humanities Research Council of Canada, The John Templeton Foundation, Government of Canada’s Digital Citizen Contribution Program, U.S. Department of Defense",
-  "temporalCoverage": "2022-10-18/2023-03-01",
-  "license": "CC0 1.0",
+  "description": "This dataset, sourced from Open Science Framework (OSF) for the purpose of replication, contains information on respondent demographics and measures of efficacy for misinformation education in both game-based and graphic-based strategies.",
+  "datePublished": "2023-07-31",
+  "keywords": ["inoculation", "misinformation", "game-based intervention", "graphic-based intervention"],
+  "funder": "Ministry of Education, Humanities and Social Sciences project",
+  "temporalCoverage": "NA/NA",
+  "license": "CC-BY 4.0",
   "spatialCoverage": {
     "type": "Place",
-    "name": "United States",
+    "name": "China",
     "geo": {
       "type": "GeoShape",
-      "box": "49 -125 24.5 -66.9"
+      "box": "53 135 18 73"
     }
   },
   "variableMeasured": [
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "responseid",
-      "description": "Subject ID"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "age",
-      "description": "Demographic: age"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "demrepc",
-      "description": "Demographic: political affiliation"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "screener2acc",
-      "description": "Average attention accuracy in 2nd screener"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "screener3acc",
-      "description": "Average attention accuracy in 3rd screener"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "screenacc",
-      "description": "Average attention accuracy in 1st screener"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "condition",
-      "description": "Whether participants saw correction-only video, misinformation-only video, or both"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "counterbalance",
-      "description": "Whether false or true video was first"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "education",
-      "description": "Demographic: education level"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "aspartame",
-      "description": "Agreement measure with a misinformative statement on topic: Aspartame toxicity (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”))"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "asymptomatic",
-      "description": "Agreement measure with a misinformative statement on topic: COVID-19 asymptomatic transmission (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”))agreement)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "rust",
-      "description": "Agreement measure with a misinformative statement on topic: Rust film set shooting (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”))"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "herd",
-      "description": "Agreement measure with a misinformative statement on topic: COVID-19 herd immunity (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”))"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "ivermectin",
-      "description": "Agreement measure with a misinformative statement on topic: Ivermectin COVID-19 treatment (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”))"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "brain",
-      "description": "Agreement measure with a misinformative statement on topic: Left or right brain personality traits (using Likert scale from 1 (“Strongly disagree”) to 7 (“Strongly agree”))"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "tiktok",
-      "description": "Participant has or does not have TikTok"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "tiktokuse",
-      "description": "If participant has TikTok, self-reporting on TikTok usage"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "tiktokrelativeuse",
-      "description": "If participant has TikTok, usage relative to other users"
-    },
     {
       "type": "PropertyValue",
       "unitText": null,
@@ -162,81 +40,87 @@
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "fake_dis_pre",
-      "description": "Fake headlines pre-test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Fake headlines pre-test credibility score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "fake_shar_pre",
-      "description": "Fake headlines pre-test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Fake headlines pre-test willingness to share score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "real_dis_pre",
-      "description": "Real headlines pre-test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Real headlines pre-test credibility score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "real_shar_pre",
-      "description": "Real headlines pre-test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Real headlines pre-test willingness to share score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "fake_dis_post",
-      "description": "Fake headlines post-test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Fake headlines post-test credibility score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "fake_shar_post",
-      "description": "Fake headlines post-test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Fake headlines post-test willingness to share score using Likert scale"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "real_dis_post",
-      "description": "Real headlines post-test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Real headlines post-test credibility score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "real_shar_post",
-      "description": "Real headlines post-test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Real headlines post-test willingness to share score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "fake_dis_follow",
-      "description": "Fake headlines follow-up test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Fake headlines follow-up test credibility score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "fake_shar_folow",
-      "description": "Fake headlines follow-up test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Fake headlines follow-up test willingness to share score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "real_dis_follow",
-      "description": "Real headlines follow-up test credibility score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Real headlines follow-up test credibility score"
     },
     {
       "type": "PropertyValue",
-      "unitText": null,
+      "unitText": "Likert scale (1 = totally not accurate, 5 = very accurate)",
       "name": "real_shar_folow",
-      "description": "Real headlines follow-up test willingness to share score using Likert scale (1 = totally not accurate, 5 = very accurate)"
+      "description": "Real headlines follow-up test willingness to share score"
     },
     {
       "type": "PropertyValue",
       "unitText": null,
       "name": "gender",
-      "description": "Demographic: gender"
+      "description": "Demographic: gender (1 = male, 2 = female)"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "years",
+      "name": "age",
+      "description": "Demographic: age"
     },
     {
       "type": "PropertyValue",
@@ -255,349 +139,13 @@
       "unitText": null,
       "name": "media literacy",
       "description": "Media literacy score"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Session.ID",
-      "description": "Unique session ID number (duplicate)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Session.ID",
-      "description": "Unique session ID number"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "treatment",
-      "description": "Participant Indicated Political Ideology"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "FactsPre",
-      "description": "Factual headline issued pre-game using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "FakePre",
-      "description": "Fake headline issued pre-game using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "FakePost",
-      "description": "Fake headline issued post-game using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "FactsPost",
-      "description": "Factual headline issued post-game using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "DiffPre",
-      "description": "Difference between pre-game issued headlines"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "DiffPost",
-      "description": "Difference between post-game issued headlines"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact1Pre",
-      "description": "1st factual headline- pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact2Pre",
-      "description": "2nd factual headline- pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact3Pre",
-      "description": "3rd factual headline- pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact4Pre",
-      "description": "4th factual headline- pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact5Pre",
-      "description": "5th factual headline- pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact6Pre",
-      "description": "6th factual headline- pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact1Post",
-      "description": "1st factual headline- post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact2Post",
-      "description": "2nd factual headline- post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact3Post",
-      "description": "3rd factual headline- post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact4Post",
-      "description": "4th factual headline- post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact5Post",
-      "description": "5th factual headline- post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Fact6Post",
-      "description": "6th factual headline- post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Em1Pre",
-      "description": "Emotional language distortion headline pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Em2Pre",
-      "description": "Emotional language distortion headline pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Dis1Pre",
-      "description": "Discrediting repute headline pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Dis2Pre",
-      "description": "Discrediting repute headline pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Cons1Pre",
-      "description": "Conspiratorial thinking headline pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Cons2Pre",
-      "description": "Conspiratorial thinking headline pre-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Dis1Post",
-      "description": "Discrediting repute headline post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Dis2Post",
-      "description": "Discrediting repute headline post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Em1Post",
-      "description": "Emotional language distortion headline post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Em2Post",
-      "description": "Emotional language distortion headline post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Cons1Post",
-      "description": "Conspiratorial thinking headline post-intervention score using Likert scale (1-7)"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "EducationPretest",
-      "description": "Demographic: Education level"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "GenderPretest",
-      "description": "Demographic: Gender"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "AgePretest",
-      "description": "Demographic: Age"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "PoliticalIdeologyPretest",
-      "description": "Demographic: Political Ideology"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "LCred",
-      "description": "Perceived credibility of liberal source"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "RCred",
-      "description": "Perceived credibility of conservative source"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "RSlant",
-      "description": "Perceived slant of conservative source"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "LSlant",
-      "description": "Perceived slant of liberal source"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "LeftCredCat",
-      "description": "Credibility category of liberal sources as high, low, or NA"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "RightCredCat",
-      "description": "Credibility category of conservative sources as high, low, or NA"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "RExtremity",
-      "description": "Conservative extreme headline scores"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "LExtremity",
-      "description": "Liberal extreme headlines scores"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "RSlantCategory",
-      "description": "Category of headlines' slant as left, right, neutral, or NA"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "LSlantCategory",
-      "description": "Category of headlines' slant as left, right, neutral, or NA"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Dif",
-      "description": "Conservative-Liberal extremes difference"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "ExtremityCategoryL",
-      "description": "Liberal extreme category identification as extreme, moderate, neutral, or NA"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "ExtremityCategoryR",
-      "description": "Conservative extreme category identification as extreme, moderate, neutral, or NA"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "Group",
-      "description": "Assignment of group as ingroup, outgroup, neither, or NA based on political affiliation"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "PerceivedGroupR",
-      "description": "Perception of right-leaning source as ingroup, outgroup, or neither based on political affiliation"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "PerceivedGroupL",
-      "description": "Perception of left-leaning source as ingroup, outgroup, or neither based on political affiliation"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "PerceivedGroup",
-      "description": "Perception of group as ingroup, outgroup, control, or neither based on political affiliation"
-    },
-    {
-      "type": "PropertyValue",
-      "unitText": null,
-      "name": "PerceivedGroupFake",
-      "description": "Perception of group as ingroup, outgroup, control, or neither based on political affiliation"
     }
   ],
   "distribution": [
     {
       "type": "DataDownload",
-      "name": "Bhargava-data-cov",
-      "contentUrl": "https://doi.org/10.7910/DVN/0BL67B",
-      "encodingFormat": "csv"
-    },
-    {
-      "type": "DataDownload",
-      "name": "Hu-Dataset",
+      "name": "Inoculation combat misinformation in China",
       "contentUrl": "https://osf.io/g5hmb/",
-      "encodingFormat": "csv"
-    },
-    {
-      "type": "DataDownload",
-      "name": "Roozenbeek-complete_data",
-      "contentUrl": "https://doi.org/10.7910/DVN/BOJP4D",
       "encodingFormat": "csv"
     }
   ]
