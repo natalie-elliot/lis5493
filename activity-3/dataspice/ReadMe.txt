@@ -1,7 +1,32 @@
-This readme file was generated on 2025-02-28 by Natalie Elliot
+## Creating Metadata with dataspice in R
 
+***
 
-GENERAL INFORMATION
+### This repository contains the files and related data for Activity 3 in the Sping 2025 course LIS 5493 Data Stewardship.
+#### Activity 3 required the use of RStudio, the package dataspice, and Quarto Markdown to create descriptive metadata for a specific dataset. The dataset used in this project can be found [here](https://doi.org/10.17605/OSF.IO/G5HMB).
+
+***
+
+### Contents:
+##### - Metadate page: click [here](https://natalie-elliot.github.io/lis5493/activity-3/dataspice/docs/index.html) to view
+##### - R Project file
+##### - Quarto Markdown file
+##### - dataset used for generation of metadata
+##### - 4 total metadata files generated with dataspice
+#####   - access.csv
+#####   - creators.csv
+#####   - biblio.csv
+#####   - attributes.csv
+##### - Screenshots used in .qmd file and .Rproj file
+
+***
+
+#### This readme file was generated on 2025-02-28 by Natalie Elliot.
+#### Below is detailed descriptive metadata information for the dataset used in this project.
+
+***
+
+**GENERAL INFORMATION**
 
 Title of Dataset: Inoculation combat misinformation in China
 
@@ -31,7 +56,7 @@ Language Information: English (data, most supplementary materials, and publicati
 Information about funding sources that supported the collection of the data: Ministry of Education, Humanities and Social Sciences project
 
 
-SHARING/ACCESS INFORMATION
+**SHARING/ACCESS INFORMATION**
 
 Licenses/restrictions placed on the data: CC-BY 4.0
 
@@ -47,7 +72,7 @@ If yes, list source(s): NA
 Recommended citation for this dataset: Hu, B. (2023, July 25). Inoculation combat misinformation in China. https://doi.org/10.17605/OSF.IO/G5HMB
 
 
-DATA & FILE OVERVIEW
+**DATA & FILE OVERVIEW**
 
 File List: Hu-dataset.csv
 
@@ -61,7 +86,7 @@ Why was the file updated? NA
 When was the file updated? NA
 
 
-METHODOLOGICAL INFORMATION
+**METHODOLOGICAL INFORMATION**
 
 Description of methods used for collection/generation of data: From publication, data was collected through use of online game created for the experiement via WeChat, a Chinese social media platform, using pre- and post- tests along with a follow-up test two weeks after participation in experiment. Citation: Hu, B., Ju, X. D., Liu, H. H., Wu, H. Q., Bi, C., & Lu, C. (2023). Game-based inoculation versus graphic-based inoculation to combat misinformation: a randomized controlled trial. Cognitive Research: Principles and Implications, 8(1), 49. https://doi.org/10.1186/s41235-023-00505-x
 
@@ -76,7 +101,7 @@ Describe any quality-assurance procedures performed on the data: NA
 People involved with sample collection, processing, analysis and/or submission: Bo Hu, Xing-Da Ju, Huan-Huan Liu, Han-Qian Wu, Chang Lu
 
 
-DATA-SPECIFIC INFORMATION FOR: Hu-dataset.csv
+**DATA-SPECIFIC INFORMATION FOR: Hu-dataset.csv**
 
 Number of variables: 19
 
